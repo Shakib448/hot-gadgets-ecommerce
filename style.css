@@ -1,5 +1,30 @@
 body{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+    font-family: 'Abel', sans-serif;
+    font-size: large;
+}
+
+a.nav-link {
+    margin-right: 20px;
+}
+
+section{
+    height: 500px;
+}
+.mack {
+    padding: 10% 0;
+}
+
+button.mack-btn {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+svg.bi.bi-arrow-right {
+    color: white;
+    font-size: 20px;
 }
