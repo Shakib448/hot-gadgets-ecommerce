@@ -3,13 +3,61 @@ body{
     font-size: large;
 }
 
+/* Header nav start  */
 a.nav-link {
     margin-right: 20px;
+    font-weight: 700;
 }
+.navbar-light .navbar-nav .active>.nav-link:hover{
+    color: #ffffff;
+}
+
+nav.fill ul li a.nav-link {
+    transition: all .5s;
+    }
+    
+    nav.fill ul li a.nav-link:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+    }
+    
+    nav.fill ul li a.nav-link:hover {
+    color: white;
+    z-index: 1;
+    }
+    
+    nav.fill ul li a.nav-link:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    opacity: 1;
+    }
+    
+    nav.fill ul li a.nav-link {
+      position: relative;
+    }
+    
+    nav.fill ul li a.nav-link:after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      content: '.';
+      color: transparent;
+      background: #aaa;
+      height: 1px;
+    }
+
+/* End  */
 
 section{
     height: 500px;
 }
+
+/* section 1 start  */
 .mack {
     padding: 10% 0;
 }
@@ -27,4 +75,28 @@ button.mack-btn {
 svg.bi.bi-arrow-right {
     color: white;
     font-size: 20px;
+    transition: .5s;
 }
+
+button.mack-btn:hover svg.bi.bi-arrow-right{
+    transform: rotate(-180deg);
+}
+
+/* End  */
+
+/* Nav animation */
+@-webkit-keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: #333;
+    }
+  }
