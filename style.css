@@ -66,10 +66,16 @@ button.mack-btn {
     font-weight: bold;
     background-color: black;
     color: white;
-    border: none;
+    border: 1px solid black;
     padding: 15px;
     border-radius: 5px;
     text-transform: uppercase;
+    transition: 1s;
+}
+
+button.mack-btn:hover {
+    background-color: white;
+    color: black;
 }
 
 svg.bi.bi-arrow-right {
@@ -80,6 +86,7 @@ svg.bi.bi-arrow-right {
 
 button.mack-btn:hover svg.bi.bi-arrow-right{
     transform: rotate(-180deg);
+    color: black;
 }
 
 /* End  */
