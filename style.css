@@ -4,6 +4,7 @@ body{
 }
 
 /* Header nav start  */
+
 a.nav-link {
     margin-right: 20px;
     font-weight: 700;
@@ -53,16 +54,22 @@ nav.fill ul li a.nav-link {
 
 /* End  */
 
-section{
-    height: 500px;
-}
 
 /* section 1 start  */
+
+section#mack-book{
+    margin-bottom: 100px;
+}
+
 .mack {
     padding: 10% 0;
 }
 
-button.mack-btn {
+.mack p {
+    margin-bottom: 30px;
+}
+
+a.mack-btn {
     font-weight: bold;
     background-color: black;
     color: white;
@@ -71,9 +78,10 @@ button.mack-btn {
     border-radius: 10px;
     text-transform: uppercase;
     transition: 1s;
+    cursor: pointer;
 }
 
-button.mack-btn:hover {
+a.mack-btn:hover {
     background-color: white;
     color: black;
 }
@@ -84,7 +92,46 @@ svg.bi.bi-arrow-right {
     transition: .5s;
 }
 
-button.mack-btn:hover svg.bi.bi-arrow-right{
+a.mack-btn:hover svg.bi.bi-arrow-right{
+    transform: rotate(-180deg);
+    color: black;
+}
+
+/* End  */
+
+/* section 2 start  */
+
+section#samrtphone{
+    margin-bottom: 100px;
+}
+
+.smartphone-header{
+    margin-bottom: 50px;
+}
+.smartphone-header h5{
+    color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a.smartphone-btn {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 1s;
+    cursor: pointer;
+}
+
+a.smartphone-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+a.smartphone-btn:hover svg.bi.bi-arrow-right{
     transform: rotate(-180deg);
     color: black;
 }
@@ -92,6 +139,7 @@ button.mack-btn:hover svg.bi.bi-arrow-right{
 /* End  */
 
 /* Nav animation */
+
 @-webkit-keyframes fill {
     0% {
       width: 0%;
