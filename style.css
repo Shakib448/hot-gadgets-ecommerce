@@ -68,7 +68,7 @@ button.mack-btn {
     color: white;
     border: 2px solid black;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-transform: uppercase;
     transition: 1s;
 }
