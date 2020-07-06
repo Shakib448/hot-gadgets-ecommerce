@@ -188,6 +188,31 @@ a.laptop-btn:hover svg.bi.bi-arrow-right{
 
 /* End  */
 
+/* Categories start  */
+
+hr{
+    width: 10%;
+    background-color: yellow;
+    height: 10px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+.categories-card {
+    box-shadow: 0px 5px 15px gray;
+    padding: 5%;
+}
+.mt-5{
+    margin-top: 6rem!important;
+}
+/* End  */
+
+/* Footer  */
+footer {
+    padding: 5%;
+}
+/* End  */
+
 /* Nav animation */
 
 @-webkit-keyframes fill {
