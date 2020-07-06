@@ -19,31 +19,31 @@ a.nav-link {
 
 nav.fill ul li a.nav-link {
     transition: all .5s;
-    }
+}
     
-    nav.fill ul li a.nav-link:after {
+nav.fill ul li a.nav-link:after {
     text-align: left;
     content: '.';
     margin: 0;
     opacity: 0;
-    }
+}
     
-    nav.fill ul li a.nav-link:hover {
+nav.fill ul li a.nav-link:hover {
     color: white;
     z-index: 1;
-    }
+}
     
-    nav.fill ul li a.nav-link:hover:after {
+nav.fill ul li a.nav-link:hover:after {
     z-index: -10;
     animation: fill 1s forwards;
     opacity: 1;
-    }
+}
     
-    nav.fill ul li a.nav-link {
+nav.fill ul li a.nav-link {
       position: relative;
-    }
+}
     
-    nav.fill ul li a.nav-link:after {
+nav.fill ul li a.nav-link:after {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -54,7 +54,7 @@ nav.fill ul li a.nav-link {
       color: transparent;
       background: #aaa;
       height: 1px;
-    }
+}
 
 /* End  */
 
@@ -65,15 +65,19 @@ section#mack-book{
     margin-bottom: 100px;
 }
 
+.carousel-indicators .active{
+    background-color: yellow;
+}
+
 .mack {
-    padding: 10% 0;
+    padding: 10% 4%;
 }
 
 .mack p {
     margin-bottom: 30px;
 }
 
-a.mack-btn {
+.mack a.mack-btn {
     font-weight: bold;
     background-color: black;
     color: white;
@@ -85,7 +89,7 @@ a.mack-btn {
     cursor: pointer;
 }
 
-a.mack-btn:hover {
+.mack a.mack-btn:hover {
     background-color: white;
     color: black;
 }
