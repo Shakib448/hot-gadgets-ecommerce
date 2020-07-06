@@ -7,6 +7,8 @@ h1, h2, h3, h4, h5, h6, p{
     cursor: pointer;
 }
 
+
+
 /* Header nav start  */
 
 a.nav-link {
@@ -109,7 +111,7 @@ a.mack-btn:hover svg.bi.bi-arrow-right{
 
 /* section Smart phone start  */
 
-section#samrtphone{
+section#smartphone{
     margin-bottom: 100px;
 }
 
