@@ -67,8 +67,18 @@ section#mack-book{
     margin-bottom: 100px;
 }
 
-.carousel-indicators .active{
-    background-color: yellow;
+.carousel-indicators li{
+    width: 20px;
+    height: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #CECECE;
+}
+.carousel-indicators li.active{
+    width: 35px;
+    height: 10px;
+    border-radius: 8px; 
+    background-image: linear-gradient(145deg,#f1c40f,#e67e22);
 }
 
 .mack {
@@ -194,7 +204,7 @@ a.laptop-btn:hover svg.bi.bi-arrow-right{
 
 hr{
     width: 130px;
-    background-color: yellow;
+    background-image: linear-gradient(145deg,#f1c40f,#e67e22);
     height: 10px;
     border: none;
     border-radius: 50px;
