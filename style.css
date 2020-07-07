@@ -130,9 +130,11 @@ section#smartphone{
 }
 
 .smartphone-header h5{
-    color: yellow;
     font-weight: bold;
     cursor: pointer;
+    background: -webkit-linear-gradient(145deg,#f1c40f,#e67e22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 a.smartphone-btn {
@@ -171,9 +173,11 @@ section#laptop{
 
 
 .laptop-header h5{
-    color: yellow;
     font-weight: bold;
     cursor: pointer;
+    background: -webkit-linear-gradient(145deg,#f1c40f,#e67e22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 a.laptop-btn {
