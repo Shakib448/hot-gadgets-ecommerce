@@ -1,1 +1,1 @@
-"# hot-gadgets-ecommerce" 
+<img src="images/hot-gedget.png">
